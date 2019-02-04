@@ -24,7 +24,6 @@ $dark-color : #000000;
     .navbar__brand {
         font-family: $main-font;
         font-size: 16px;
-        border-right: 0.5px solid #1d0e7c;
         text-align: center;
 
         a {
@@ -41,5 +40,9 @@ $dark-color : #000000;
                 transition: .2s ease-in;
             }
         }
+    }
+
+    .navbar__menu-list {
+        background-color: #1d0e7c;
     }
 }
