@@ -39,12 +39,14 @@ html {
 
 .navbar {
   width: 100%;
+  top: -60px;
   position: fixed;
   background-color: #0c005a;
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   grid-gap: 10px;
   grid-auto-rows: 60px;
+  transition: all 0.3s;
 }
 .navbar .navbar__brand {
   font-family: "Source Sans Pro", sans-serif;

@@ -14,12 +14,14 @@ $dark-color : #000000;
 // Navbar
 .navbar {
     width: 100%;
+    top: -60px;
     position: fixed;
     background-color: $main-color;
     display: grid;
     grid-template-columns: 200px 1fr 200px;
     grid-gap: 10px;
     grid-auto-rows: 60px;
+    transition: all 0.3s;
 
     .navbar__brand {
         font-family: $main-font;
