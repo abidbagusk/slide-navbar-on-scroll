@@ -128,4 +128,9 @@ html {
   background-color: orange;
 }
 
+.content {
+  height: 100vh;
+  background: #bc2525;
+}
+
 /*# sourceMappingURL=style.css.map */
