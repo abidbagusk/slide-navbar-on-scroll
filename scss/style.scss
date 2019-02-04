@@ -86,4 +86,36 @@ $dark-color : #000000;
             }
         }
     }
+
+    .navbar__profile {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            line-height: 60px;
+            text-align: left;
+
+            li {
+                display: inline-block;
+                color: $bright-color;
+                font-size: 12px;
+                padding: 0 10px;
+                cursor: pointer;
+
+                .badge {
+                    padding: 5px;
+                    margin-right: 5px;
+                    border-radius: 2px;
+                    background-color: $secondary-color;
+                }
+
+                .badge--secondary {
+                    padding: 5px;
+                    margin-right: 5px;
+                    border-radius: 2px;
+                    background-color: orange;
+                }
+            }
+        }
+    }
 }

@@ -101,5 +101,31 @@ html {
   width: 50%;
   transition: all 0.5s;
 }
+.navbar .navbar__profile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 60px;
+  text-align: left;
+}
+.navbar .navbar__profile ul li {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.navbar .navbar__profile ul li .badge {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background-color: #ff0000;
+}
+.navbar .navbar__profile ul li .badge--secondary {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background-color: orange;
+}
 
 /*# sourceMappingURL=style.css.map */
