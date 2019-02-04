@@ -10,6 +10,6 @@ function slideDown() {
     if (scrollPos > 50) {
         navbar.style.top = '0';
     } else {
-        navbar.style.top = '-50px';
+        navbar.style.top = '-60px';
     }
 }
