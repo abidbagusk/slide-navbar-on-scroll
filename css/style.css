@@ -42,9 +42,28 @@ html {
   position: fixed;
   background-color: #0c005a;
   display: grid;
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 200px 1fr 200px;
   grid-gap: 10px;
   grid-auto-rows: 60px;
+}
+.navbar .navbar__brand {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  border-right: 0.5px solid #1d0e7c;
+  text-align: center;
+}
+.navbar .navbar__brand a {
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 60px;
+  transition: 0.2s ease-out;
+}
+.navbar .navbar__brand a:hover {
+  letter-spacing: 3px;
+  transition: 0.2s ease-in;
 }
 
 /*# sourceMappingURL=style.css.map */
