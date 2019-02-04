@@ -63,6 +63,7 @@ $dark-color : #000000;
                     font-family: $main-font;
                     font-size: 12px;
                     position: relative;
+                    letter-spacing: 2px;
                 }
 
                 a:before {
@@ -78,7 +79,7 @@ $dark-color : #000000;
 
                 a:hover {
                     &:before {
-                        width: 70%;
+                        width: 50%;
                         transition: all .5s;
                     }
                 }

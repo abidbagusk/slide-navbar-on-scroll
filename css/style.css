@@ -85,6 +85,7 @@ html {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 12px;
   position: relative;
+  letter-spacing: 2px;
 }
 .navbar .navbar__menu-list ul li a:before {
   position: absolute;
@@ -97,7 +98,7 @@ html {
   transition: all 0.5s;
 }
 .navbar .navbar__menu-list ul li a:hover:before {
-  width: 70%;
+  width: 50%;
   transition: all 0.5s;
 }
 
