@@ -11,6 +11,14 @@ $ambient-color : #bc2525;
 $bright-color : #FFFFFF;
 $dark-color : #000000;
 
+// style for list
+%parent-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 60px;
+}
+
 // Navbar
 .navbar {
     width: 100%;
@@ -48,10 +56,7 @@ $dark-color : #000000;
         background-color: #1d0e7c;
 
         ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            line-height: 60px;
+            @extend %parent-list;
             text-align: center;
 
             li {
@@ -91,10 +96,7 @@ $dark-color : #000000;
 
     .navbar__profile {
         ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            line-height: 60px;
+            @extend %parent-list;
             text-align: left;
 
             li {
