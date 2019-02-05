@@ -127,5 +127,14 @@ $dark-color : #000000;
 // Sample Content
 .content {
     height: 100vh;
-    background: $ambient-color;
+    background: purple;
+    text-align: center;
+    line-height: 100vh;
+
+    .content__title {
+        font-family: $main-font;
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
 }

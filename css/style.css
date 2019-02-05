@@ -131,7 +131,15 @@ html {
 
 .content {
   height: 100vh;
-  background: #bc2525;
+  background: purple;
+  text-align: center;
+  line-height: 100vh;
+}
+.content .content__title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
